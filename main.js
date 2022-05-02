@@ -41,7 +41,7 @@ function enviaMsg(e){
     e.preventDefault()
     const name = document.querySelector(".name"),
         email = document.querySelector(".email"),
-        msg = document.querySelector(".mensagem")
+        msg = document.querySelector(".msg")
 
     Email.send({
         SecureToken : "a690d785-da99-40f2-9283-95b7d96595f7",
