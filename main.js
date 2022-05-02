@@ -44,11 +44,11 @@ function enviaMsg(e){
         msg = document.querySelector(".msg")
 
     Email.send({
-        SecureToken : "a690d785-da99-40f2-9283-95b7d96595f7",
-        To : 'gabrieldarochadiasbrito@gmail.com',
-        From : email.value,
-        Subject : "Contato Portfolio de: " +name.value,
-        Body : msg.value
+        SecureToken: "a690d785-da99-40f2-9283-95b7d96595f7",
+        To: 'gabrieldarochadiasbrito@gmail.com',
+        From: email.value,
+        Subject: "Contato Portfolio",
+        Body: msg.value
     }).then(
       message => alert(message)
     );
