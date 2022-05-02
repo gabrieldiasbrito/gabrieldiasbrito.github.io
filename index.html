@@ -211,11 +211,11 @@
     </div>
     <div class="escuro" id="contato">
         <h1>Contato</h1>
-        <form class="contato-form" action="https://formsubmit.co/gabrieldarochadiasbrito@gmail.com" method="POST">
-            <input type="text" placeholder="Nome:" name="name" required>
-            <input type="email" placeholder="E-mail:" name="email" required>
-            <textarea name="" cols="30" rows="10" placeholder="Mensagem..." required></textarea>
-            <input type="submit" value="Enviar" class="btn"/>
+        <form class="contato-form" action="#">
+            <input class="name" type="text" placeholder="Nome:" required>
+            <input class="email" type="email" placeholder="E-mail:" required>
+            <textarea class="msg" cols="30" rows="10" placeholder="Mensagem:" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
         </form>
         <ul>
             <li><a href="https://www.facebook.com/gabriel.darochadiasbrito" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
@@ -231,6 +231,7 @@
 </div>
     
 <script src="https://kit.fontawesome.com/ba24aa1d7a.js" crossorigin="anonymous"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="./main.js"></script>
 </body>
 </html>
