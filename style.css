@@ -332,6 +332,10 @@ img{
     height: 200px;
 }
 
+#contato ul{
+    text-align: center;
+}
+
 /*--Copyright--*/
 
 .copyright{
