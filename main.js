@@ -41,13 +41,13 @@ function enviaMsg(e){
     e.preventDefault()
     const name = document.querySelector(".name"),
         email = document.querySelector(".email"),
-        msg = document.querySelector(".msg")
+        msg = document.querySelector(".mensagem")
 
     Email.send({
         SecureToken : "a690d785-da99-40f2-9283-95b7d96595f7",
         To : 'gabrieldarochadiasbrito@gmail.com',
         From : email.value,
-        Subject : "Contato Portfolio",
+        Subject : "Contato Portfolio de: " +name.value,
         Body : msg.value
     }).then(
       message => alert(message)
