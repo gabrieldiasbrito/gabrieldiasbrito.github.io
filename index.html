@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <label class="logo">Portfólio</label>
+        <ul class="ul">
+            <li><a class="link" href="#home">Home</a></li>
+            <li><a class="link" href="#sobre">Sobre mim</a></li>
+            <li><a class="link" href="#skills">Habilidades</a></li>
+            <li><a class="link" href="#projetos">Projetos</a></li>
+            <li><a class="link" href="#contato">Contato</a></li>
+            <li><a href="./src/Curriculo.pdf" download="Currículo.pdf" type="application/pdf" target="_blank"><button class="contato">Download CV</button></a></li>
+        </ul>
+    </nav>
+    <br id="home"><br><br>
+    <div>
+    <div class="content" >
+        <h1>Gabriel Brito</h1>
+        <img src="./src/eu.png" alt="">
+        <p>
+            Olá, tenho 18 anos, estou sempre em busca de novas oportunidades, procurando fazer o bem pelas pessoas e tentando arrancar um sorriso delas :)
+        </p>
+    </div>
+    <img class="bg" src="./src/bg.jpg" alt="">
+    <div class="escuro" id="sobre">
+        <h1>Sobre mim</h1>
+        <p>Residente de Embu das Artes, técnico de desenvolvimento de sistemas formado pela Etec de Embu das artes, cursando ciência da computação na Universidade Anhembi Morumbi </p>
+        <p>Além da programação, gosto muito de psicologia, edição de fotos e vídeos, música e no tempo vago faço lives na Twitch.</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/britolol-gabriel" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/_bielhly/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.twitch.tv/britolol_" target="_blank"><i class="fa-brands fa-twitch"></i></a></li>
+        </ul>
+    </div>
+    <div class="escuro" id="skills">
+        <h1>Habilidades</h1>
+        <div class="skills-container">
+
+            <div class="skills-content skills-close">
+                <div class="skills-header">
+                    <i class="fa-solid fa-code skills-icon"></i>
+                    <div>
+                        <h1>Front-end developer</h1>
+                    </div>
+                    <i class="fa-solid fa-angle-down skills-arrow"></i>
+                </div>
+                <div class="skills-list">
+                    <div class="skills">
+                        <div class="skills-title">
+                            <h3 class="skills-name">HTML</h3>
+                            <span class="skills-number">90%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-html"></span>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills-title">
+                            <h3 class="skills-name">CSS</h3>
+                            <span class="skills-number">90%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-css"></span>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills-title">
+                            <h3 class="skills-name">Javascript</h3>
+                            <span class="skills-number">80%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-javascript"></span>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills-title">
+                            <h3 class="skills-name">Node.js</h3>
+                            <span class="skills-number">70%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-nodejs"></span>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills-title">
+                            <h3 class="skills-name">React Native</h3>
+                            <span class="skills-number">80%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-reactnative"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-content skills-close">
+                <div class="skills-header">
+                    <i class="fa-solid fa-terminal skills-icon"></i>
+                    <div>
+                        <h1>Back-end developer</h1>
+                    </div>
+                    <i class="fa-solid fa-angle-down skills-arrow"></i>
+                </div>
+                <div class="skills-list">
+                    <div class="skills">
+                        <div class="skills-title">
+                            <h3 class="skills-name">C#</h3>
+                            <span class="skills-number">90%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-cs"></span>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills-title">
+                            <h3 class="skills-name">C++</h3>
+                            <span class="skills-number">70%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-cm"></span>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills-title">
+                            <h3 class="skills-name">MySQL</h3>
+                            <span class="skills-number">90%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-mysql"></span>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills-title">
+                            <h3 class="skills-name">Python</h3>
+                            <span class="skills-number">80%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-python"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-content skills-close">
+                <div class="skills-header">
+                    <i class="fa-solid fa-computer skills-icon"></i>
+                    <div>
+                        <h1>Designer</h1>
+                    </div>
+                    <i class="fa-solid fa-angle-down skills-arrow"></i>
+                </div>
+                <div class="skills-list">
+                    <div class="skills">
+                        <div class="skills-title">
+                            <h3 class="skills-name">Edição de Imagem</h3>
+                            <span class="skills-number">80%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-img"></span>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills-title">
+                            <h3 class="skills-name">Edição de vídeo</h3>
+                            <span class="skills-number">90%</span>
+                        </div>
+                        <div class="skills-bar">
+                            <span class="skills-percentage skills-vid"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <a href="./src/Curriculo.pdf" download="Currículo.pdf" type="application/pdf" target="_blank"><button class="btn">Download CV</button></a>
+    </div>
+    <div class="escuro" id="projetos">
+        <h1>Projetos</h1>
+        <div class="projects">
+            <div class="project">
+                <h2>Animes-Up</h2>
+                <img src="./src/animes-up.png" alt="">
+                <p><b>Animes-Up</b> é um serviço de streaming focado na cultura oriental especificamente nos <i>Animes</i></p>
+                <p>O Site foi feito em HTMl, CSS, Javascript, Bootstrap.js e Query.js, como trabalho de "Programação web" para ETEC de Embu</p>
+            </div>
+            <div class="project">
+                <h2>Meu universo</h2>
+                <img src="./src/otome.png" alt="">
+                <p><b>Meu universo</b> é um jogo <i>Otome</i> de romance, onde os personagens são baseados nos planetas do nosso universo no qual o enredo vai se formando de acordo com suas escolhas, o que torna a experiência algo único para cada jogador.</p>
+                <p>O jogo será feito na Unity utilizando a linguagem C#.</p>
+            </div>
+            <div class="project">
+                <h2>Guerra das formas</h2>
+                <img src="./src/guerradasformas.png" alt="">
+                <p><b>Guerra das formas</b> é um jogo <i>Shoot 'em up</i>, onde todos os objetos são baseados em formas geométricas, variando a quantidade, tipo e ataque dos inimigos, tendo também vários <i>Power Up</i> que ajudam em sua joranada.</p>
+                <p>O jogo foi feito na Unity utilizando a linguagem C#, como Trabalho de Conclusão de Curso na ETEC de Embu.</p>
+            </div>
+        </div>
+    </div>
+    <div class="escuro" id="contato">
+        <h1>Contato</h1>
+        <form class="contato-form" action="https://formsubmit.co/gabrieldarochadiasbrito@gmail.com" method="POST">
+            <input type="text" placeholder="Nome:" name="name" required>
+            <input type="email" placeholder="E-mail:" name="email" required>
+            <textarea name="" cols="30" rows="10" placeholder="Mensagem..." required></textarea>
+            <input type="submit" value="Enviar" class="btn"/>
+        </form>
+        <ul>
+            <li><a href="https://www.facebook.com/gabriel.darochadiasbrito" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/britolol-gabriel" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/_bielhly/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://api.whatsapp.com/send?1=pt_BR&phone=11937713562" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="https://www.twitch.tv/britolol_" target="_blank"><i class="fa-brands fa-twitch"></i></a></li>
+        </ul>
+    </div>
+    <div class="copyright">
+        <p>© 2022 Gabriel Brito</p>
+    </div>
+</div>
+    
+<script src="https://kit.fontawesome.com/ba24aa1d7a.js" crossorigin="anonymous"></script>
+<script src="./main.js"></script>
+</body>
+</html>
